@@ -12,7 +12,7 @@ pipeline {
     stages {
         stage('clone joel git repo') {
             steps {
-                git branch: 'master',
+                git branch: 'joel-demo',
                     credentialsId: 'github-cicd',
                         url: 'https://github.com/oscarose/joel-demo.git'
             }
