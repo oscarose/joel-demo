@@ -22,7 +22,7 @@ pipeline {
                 script {
                     sh """
                     mkdir -p /root/joel/joel1/joel3
-                    ansible -version
+                    ansible --version
                     df -h
                     """
                 }
